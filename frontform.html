@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title> </title>
+</head>
+<body>
+<h1>Formulário de Inscrição</h1>
+<p>Preencha os campos abaixo para participar do nosso evento
+de programação online.</p>
+<!-- INÍCIO DO FORMULÁRIO -->
+<form>
+<!-- BLOCO 1: Campos de texto básicos -->
+<!-- Campo Nome -->
+<label for="nome">Nome completo:</label><br>
+<input type="text" id="nome" placeholder="Digite seu nome"
+required><br><br>
+<!-- Campo E-mail -->
+<label for="email">E-mail:</label><br>
+<input type="email" id="email" placeholder="Digite seu e-mail"
+required><br><br>
+<!-- Campo Senha -->
+<label for="senha">Crie uma senha:</label><br>
+<input type="password" id="senha" placeholder="Digite uma
+senha" required><br><br>
+<!-- FIM DO BLOCO 1 -->
+<!-- BLOCO 2: Campos de data -->
+<label for="nascimento">Data de nascimento:</label><br>
+<input type="date" id="nascimento"><br><br>
+<!-- FIM DO BLOCO 2 -->
+<!-- BLOCO 3: Lista de opções -->
+<label for="linguagem">Linguagem favorita:</label><br>
+<select id="linguagem">
+<option>Selecione</option>
+<option>JavaScript</option>
+<option>Python</option>
+<option>Java</option>
+<option>C#</option>
+</select><br><br>
+<!-- FIM DO BLOCO 3 -->
+<!-- BLOCO 4: Radio buttons -->
+<p>Tipo de ingresso:</p>
+<input type="radio" name="ingresso" value="gratuito">
+Gratuito
+<input type="radio" name="ingresso" value="vip"> VIP<br><br>
+<!-- FIM DO BLOCO 4 -->
+<!-- BLOCO 5: Upload de arquivo -->
+<label for="foto">Envie sua foto:</label><br>
+<input type="file" id="foto"><br><br>
+<!-- FIM DO BLOCO 5 -->
+<!-- BLOCO 6: Checkbox -->
+<input type="checkbox" id="termos" required>
+<label for="termos">Aceito os termos e condições</label><br>
+<br>
+<!-- FIM DO BLOCO 6 -->
+<!-- BLOCO 7: Área de texto -->
+<label for="comentario">Mensagem ou comentário:</label>
+<br>
+<textarea id="comentario" placeholder="Escreva aqui...">
+</textarea><br><br>
+<!-- FIM DO BLOCO 7 -->
+<!-- BLOCO 8: Botão de envio -->
+<button type="submit">Enviar inscrição</button>
+<!-- FIM DO BLOCO 8 -->
+</form>
+<!-- FIM DO FORMULÁRIO -->
+</body>
+</html>
